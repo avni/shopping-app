@@ -9,23 +9,23 @@ var list = [];
  * @return: none;
  */
 
-function buildList() {
+function buildList(){
 	alert("Write Items. Type s to stop.");
 	let nextItem = "";
-	if (nextItem != "s") {
+	while (nextItem != "s") {
 		nextItem = prompt("Next Item?");
     list.push(nextItem);
 	}
 }	
 
 function shopList() {
-  alert(list);
-  let item = list.pop;
-  if (list.length >= 0) {
-    item = list.pop
+  alert("list");
+  let item = list.pop();
+  while (list.length() >= 0){
+    item = list.pop();
     alert (item);
-  }  else {
-    alert("Go check out!");
+	}  
+	alert("Go check out!");
 }
 
  
