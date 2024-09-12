@@ -1,11 +1,21 @@
 body {
   text-align:center;
   width:600px;
+  border:1px solid gray;
+  margin:10%;padding:5%;
 }
+
 button {
   padding;5px;
   margin:10px;
+  display:block;
 }
+
 button:hover {
   background-color:yellow;
+}
+
+img {
+  width:80%;
+  display:block;
 }
